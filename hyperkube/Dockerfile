@@ -1,0 +1,1 @@
+FROM rancher/hyperkube:v1.13.4-rancher1
