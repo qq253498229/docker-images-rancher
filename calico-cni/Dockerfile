@@ -1,0 +1,1 @@
+FROM rancher/calico-cni:v3.4.0

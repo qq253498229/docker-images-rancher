@@ -1,0 +1,1 @@
+FROM rancher/calico-node:v3.4.0

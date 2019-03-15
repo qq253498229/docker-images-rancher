@@ -1,0 +1,1 @@
+FROM rancher/k8s-dns-dnsmasq-nanny-amd64:1.15.0

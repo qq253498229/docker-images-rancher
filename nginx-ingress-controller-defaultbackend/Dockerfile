@@ -1,0 +1,1 @@
+FROM rancher/nginx-ingress-controller-defaultbackend:1.4
