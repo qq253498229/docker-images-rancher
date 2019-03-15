@@ -1,0 +1,1 @@
+FROM rancher/coreos-etcd:v3.2.24
