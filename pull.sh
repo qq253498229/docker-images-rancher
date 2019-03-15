@@ -31,6 +31,7 @@ images=(
  coreos-flannel:v0.10.0
  calico-node:v3.4.0
  calico-cni:v3.4.0
+ cluster-proportional-autoscaler-amd64:1.0.0
 )
 
 for image in ${images[@]}; do
