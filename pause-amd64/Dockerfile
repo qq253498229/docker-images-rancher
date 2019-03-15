@@ -1,0 +1,1 @@
+FROM rancher/pause-amd64:3.1

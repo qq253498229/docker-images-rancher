@@ -5,16 +5,17 @@
 #rancher/rke-tools:v0.1.16
 #rancher/hyperkube:v1.13.4-rancher1
 #rancher/coreos-etcd:v3.2.24
+#rancher/coreos-flannel:v0.10.0
 #rancher/nginx-ingress-controller-defaultbackend:1.4
 #rancher/nginx-ingress-controller:0.21.0-rancher1
 #rancher/metrics-server-amd64:v0.3.1
 #rancher/k8s-dns-kube-dns-amd64:1.15.0
 #rancher/k8s-dns-dnsmasq-nanny-amd64:1.15.0
 #rancher/k8s-dns-sidecar-amd64:1.15.0
-#rancher/coreos-flannel:v0.10.0
 #rancher/calico-node:v3.4.0
 #rancher/calico-cni:v3.4.0
 #rancher/cluster-proportional-autoscaler-amd64:1.0.0
+#rancher/pause-amd64:3.1
 
 images=(
  rancher-agent:v2.1.7
@@ -32,6 +33,7 @@ images=(
  calico-node:v3.4.0
  calico-cni:v3.4.0
  cluster-proportional-autoscaler-amd64:1.0.0
+ rancher/pause-amd64:3.1
 )
 
 for image in ${images[@]}; do
