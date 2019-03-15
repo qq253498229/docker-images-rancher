@@ -14,6 +14,7 @@
 #rancher/coreos-flannel:v0.10.0
 #rancher/calico-node:v3.4.0
 #rancher/calico-cni:v3.4.0
+#rancher/cluster-proportional-autoscaler-amd64:1.0.0
 
 images=(
  rancher-agent:v2.1.7
