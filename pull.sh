@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+#rancher/rancher-agent   v2.1.7
+#rancher/rancher         stable
+
+
+images=(rancher/rancher:stable rancher/rancher-agent:v2.1.7)
+
+for image in ${images[@]}; do
+  docker pull registry.cn-beijing.aliyuncs.com/wangdali/$image
+  docker tag registry.cn-beijing.aliyuncs.com/wangdali/$image rancher/$image
+  docker rmi registry.cn-beijing.aliyuncs.com/wangdali/$image
+done

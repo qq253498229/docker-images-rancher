@@ -1,0 +1,1 @@
+FROM rancher/rancher-agent:v2.1.7
