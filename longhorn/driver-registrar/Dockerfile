@@ -1,0 +1,1 @@
+FROM quay.io/k8scsi/driver-registrar:v0.4.1

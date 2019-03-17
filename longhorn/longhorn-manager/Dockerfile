@@ -1,0 +1,1 @@
+FROM rancher/longhorn-manager:v0.4.0

@@ -1,0 +1,1 @@
+FROM quay.io/k8scsi/csi-attacher:v0.4.2
